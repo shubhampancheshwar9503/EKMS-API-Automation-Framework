@@ -1,0 +1,32 @@
+{
+  "name": "ekms-enterprise-api-automation",
+  "version": "1.0.0",
+  "scripts": {
+    "type-check": "tsc -p tsconfig.json --noEmit",
+    "test:full": "node utils/test_pipeline_controller.js",
+    "test": "playwright test",
+    "test:allure": "playwright test",
+    "test:report": "playwright test",
+    "test:sequential": "playwright test --workers=1",
+    "test:parallel": "playwright test",
+    "report": "npx allure-commandline generate allure-results --clean -o allure-report && npx allure-commandline open allure-report",
+    "generate-pdf": "node utils/pdf_reporting_engine.js",
+    "generate-report": "npx allure-commandline generate allure-results --clean"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.45.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0",
+    "nodemailer": "^8.0.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.40.0",
+    "allure-playwright": "^2.0.0",
+    "monocart-reporter": "^2.11.2",
+    "pdf-lib": "^1.17.1",
+    "typescript": "^5.0.0",
+    "concurrently": "^8.2.0"
+  }
+}
+

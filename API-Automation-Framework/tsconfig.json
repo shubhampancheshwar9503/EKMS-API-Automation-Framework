@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@utils/*": ["utils/*"],
+      "@constants/*": ["constants/*"],
+      "@models/*": ["models/*"],
+      "@tests/*": ["tests/*"]
+    }
+  },
+  "include": [
+    "utils/**/*.ts",
+    "constants/**/*.ts",
+    "models/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "allure-results",
+    "allure-report"
+  ]
+}
