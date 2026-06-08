@@ -1,0 +1,4 @@
+
+==================================================
+--- Validating Authentication before running tests ---
+--- Initiating Automated OAuth2 Token Retrieval ---
