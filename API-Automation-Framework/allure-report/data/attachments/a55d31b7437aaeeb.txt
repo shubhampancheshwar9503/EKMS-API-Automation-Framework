@@ -1,7 +1,0 @@
-
-==================================================
---- Validating Authentication before running tests ---
---- Initiating Automated OAuth2 Token Retrieval ---
-[2026-06-08 11:05:56 (IST)] 💾 Access Token successfully stored and maintained in Excel Token sheet.
-✅ Automated Token Retrieval Successful.
-[2026-06-08 11:05:56 (IST)] 💾 Response & validationResult successfully saved to Sheet "IP_Whitelist_Blacklist" row 9

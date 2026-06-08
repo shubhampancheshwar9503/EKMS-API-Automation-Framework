@@ -1,6 +1,0 @@
-
-==================================================
---- Validating Authentication before running tests ---
---- Initiating Automated OAuth2 Token Retrieval ---
-[2026-06-08 11:06:37 (IST)] 💾 Access Token successfully stored and maintained in Excel Token sheet.
-✅ Automated Token Retrieval Successful.
